@@ -1,0 +1,16 @@
+HW03_seongah - MVC 패턴 조사하기
+
+*MVC*
+MVC : Model View Controller의 약자, 앱을 세가지 역할로 구분한 개발 방법론
+user가 controller를 조작하면 controller는 model을 통해 데이터를 가져오고
+그 정보를 바탕으로 view를 제어해 시각적인 표현을 user에게 전달한다.
+
+- Model : 어플리케이션이 "무엇"을 할지 정의. (ex. 알고리즘, DB)
+- Controller : 모델이 "어떻게"처리할지 알려주는 역할, 모바일에서는 화면의 로직처리 부분
+- View : 화면에 무언가를 보여주기 위한 역할, 컨트롤러 하위에 종속된다.
+
+-MVC의 한계 : 뷰와 모델이 서로 의존성을 띄어 복잡한 화면에 데이터의 구성이 필요하면,
+controller에 다수의 model과 view가 복잡하게 연결되어 있는 상황이 생길 수 있다.
+MVC가 너무 크고 복잡해진 상태를 Massive ViewController라 한다.
+Controller는 View, 라이프 사이클과 강하게 연결되어있어 분리가 불가능하고, 코드 분석/수정/테스트가 힘들다.
+이 문제점을 보완한 패턴들이 MVP, MVVM, Viper 등등이 있다.
