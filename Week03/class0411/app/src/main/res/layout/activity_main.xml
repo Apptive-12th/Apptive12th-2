@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:src="@drawable/camera"
+            android:id="@+id/camera"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instragram"
+            android:textSize="20dp"
+            android:layout_marginLeft="110dp"
+            android:layout_gravity="center"
+            android:textColor="#3f3f3f"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/tv"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginLeft="75dp"
+            android:id="@+id/tv"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/plane"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/plane"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요로로로"
+        android:textSize="30dp"
+        android:id="@+id/Hello"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버트은"
+        android:textSize="15dp"
+        android:id="@+id/Button"
+        />
+
+</LinearLayout>
